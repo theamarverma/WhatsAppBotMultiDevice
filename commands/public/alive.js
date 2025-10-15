@@ -19,7 +19,7 @@ const handler = async (sock, msg, from, args, msgInfoObj) => {
 
 	const response =
 		`*👋🏻 Hello ${updateName}*\n\n` +
-		`*🎾 Eva is Online!*\n` +
+		`*🎾 Digihumans is Online!*\n` +
 		`*🟢 Response Time:* ${
 			responseTime >= 1000 ? `${responseTimeInSeconds.toFixed(2)}s` : `${responseTime.toFixed(2)}ms`
 		}\n` +

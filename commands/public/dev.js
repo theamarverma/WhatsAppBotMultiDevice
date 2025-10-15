@@ -1,17 +1,17 @@
 const handler = async (sock, msg, from, args, msgTnfoObj) => {
 	const { sendMessageWTyping } = msgTnfoObj;
 
-	const text = `*👨‍💻 Developer Info – Mahesh Kumar*\n
+	const text = `*👨‍💻 Developer Info – Bhanu Nayak*\n
 ╭─────────────⭓
 │
 │ *🔗 GitHub:*
-│ https://github.com/jacktheboss220
+│ https://github.com/bhanunayak01
 │
 │ *📢 Telegram Channel:*
 │ https://t.me/jackthebosss
 │
 │ *🌐 Portfolio:*
-│ https://www.jacktheboss220.com
+│ https://www.bhanunayak.netlify.app
 │
 ╰─────────────⭓`;
 
