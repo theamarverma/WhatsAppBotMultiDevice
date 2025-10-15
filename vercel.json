@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "index.js"
+    }
+  ],
+  "env": {
+    "PREFIX": "-",
+    "MONGODB_KEY": "mongodb+srv://amar:amar@cluster0.tuc2vhw.mongodb.net/",
+    "MY_NUMBER": "919709234485",
+    "MODERATORS": "919709234485",
+    "REMOVE_BG_KEY": "",
+    "TRUECALLER_ID": "",
+    "GOOGLE_API_KEY": "",
+    "SEARCH_ENGINE_KEY": "",
+    "OPENAI_API_KEY": "",
+    "GENIUS_ACCESS_SECRET": "",
+    "PIN_KEY": "",
+    "TWITTER_BEARER_TOKEN": "",
+    "HEROKU_API_TOKEN": "",
+    "HEROKU_APP_NAME": "",
+    "YOUTUBE_DELAY_BETWEEN_REQUESTS": "1000",
+    "YOUTUBE_MAX_RETRIES": "3",
+    "YOUTUBE_RETRY_DELAY": "2000",
+    "MAX_AUDIO_SIZE_MB": "50",
+    "MAX_VIDEO_SIZE_MB": "50",
+    "DOWNLOAD_TIMEOUT_SECONDS": "600",
+    "YOUTUBE_DEBUG": "false",
+    "ENABLE_USER_AGENT_ROTATION": "true",
+    "FORCE_DISABLE_YTDLP": "false"
+  }
+}
